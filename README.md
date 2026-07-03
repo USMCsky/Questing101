@@ -32,18 +32,11 @@ Once enabled, the plugin provides a quest-centered gameplay loop:
 ## Command Usage
 Use these commands in-game (or console where supported):
 
-- **`/quest`** — opens or displays the main quest help/menu.
-- **`/quest list`** — shows available quests.
-- **`/quest start <questId>`** — starts a quest by ID.
-- **`/quest progress`** — displays current quest progress.
-- **`/quest complete <questId>`** — completes a quest when requirements are met.
-- **`/quest abandon <questId>`** — abandons an active quest.
-- **`/quest reload`** — reloads quest/plugin configuration.
+- **`/quest`** — opens or displays the main quest menu.
 
 ## Usage
 After setup, usage is simple:
 - Run the base quest command.
-- View and start an available quest.
 - Complete quest objectives while playing.
 - Check progress as needed.
 - Complete quests and continue through progression.
