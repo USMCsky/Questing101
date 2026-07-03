@@ -1,0 +1,9 @@
+name: Quest
+version: '${version}'
+main: com.quest.QuestPlugin
+api-version: '1.21'
+authors: [ USMCsky ]
+commands:
+  quest:
+    description: Shows quest progress for mobs, flowers, and trees
+    usage: /quest [mobs|flowers|trees] [page]
