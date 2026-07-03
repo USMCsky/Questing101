@@ -24,22 +24,39 @@ A lightweight Spigot plugin that introduces a structured quest progression syste
 ## How It Works
 Once enabled, the plugin provides a quest-centered gameplay loop:
 
-- **Start quests:** players begin available quests through command usage.
-- **Track objectives:** progress is tracked as tasks are completed.
-- **Advance naturally:** completed quests move players through progression milestones.
-- **Stay organized:** command-driven flow makes quest management simple and clear.
+- **Track overall progress:** players can view completion totals by category.
+- **Browse quest checklists:** players can open category-specific pages.
+- **Advance naturally:** completed objectives move players through progression milestones.
+- **Stay organized:** command-driven flow keeps quest tracking simple and clear.
 
 ## Command Usage
-Use these commands in-game (or console where supported):
+Use these commands in-game (**player-only command**):
 
-- **`/quest`** — opens or displays the main quest menu.
+- **`/quest`** — shows summary progress across all categories.
+- **`/quest <category> [page]`** — shows checklist entries for a category, with optional page number.
+
+### Categories
+- `mobs`
+- `flowers`
+- `trees`
+
+### Examples
+- `/quest`
+- `/quest mobs`
+- `/quest flowers 2`
+- `/quest trees 3`
+
+### Notes
+- If an invalid category is used, the plugin responds with:
+  - `/quest [mobs|flowers|trees] [page]`
+- The `page` argument must be a number.
 
 ## Usage
 After setup, usage is simple:
-- Run the base quest command.
-- Complete quest objectives while playing.
-- Check progress as needed.
-- Complete quests and continue through progression.
+- Run `/quest` to view summary progress.
+- Use `/quest <category>` to view a checklist.
+- Use `/quest <category> <page>` to view additional pages.
+- Complete objectives while playing to progress.
 
 ## Compatibility
 - Spigot API (project-defined)
