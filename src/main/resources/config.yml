@@ -1,0 +1,39 @@
+first-completion-xp:
+  mobs: 25
+  flowers: 15
+  trees: 15
+
+milestones:
+  mobs: [10, 25, 50]
+  flowers: [5, 10, 20]
+  trees: [4, 8, 12]
+  final-reward-rolls: 2
+
+reward-pool:
+  - material: NETHERITE_INGOT
+    amount: 1
+    weight: 10
+  - material: ENCHANTED_GOLDEN_APPLE
+    amount: 1
+    weight: 2
+  - material: EXPERIENCE_BOTTLE
+    amount: 16
+    weight: 8
+  - material: DIAMOND_SWORD
+    amount: 1
+    weight: 4
+    enchantments:
+      sharpness: 5
+      unbreaking: 3
+  - material: DIAMOND_CHESTPLATE
+    amount: 1
+    weight: 4
+    enchantments:
+      protection: 4
+      unbreaking: 3
+  - material: NETHERITE_HELMET
+    amount: 1
+    weight: 1
+    enchantments:
+      protection: 4
+      unbreaking: 3
