@@ -43,8 +43,8 @@ Use these commands in-game (**player-only command**):
 ### Examples
 - `/quest`
 - `/quest mobs`
-- `/quest flowers 2`
-- `/quest trees 3`
+- `/quest flowers`
+- `/quest trees`
 
 ### Notes
 - If an invalid category is used, the plugin responds with:
