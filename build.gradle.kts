@@ -1,3 +1,5 @@
+import org.gradle.jvm.tasks.Jar
+
 plugins {
     id("java-library")
 }
@@ -21,5 +23,17 @@ tasks {
         filesMatching("plugin.yml") {
             expand(props)
         }
+    }
+
+    register<Jar>("deployJar") {
+        dependsOn(named("classes"))
+        from(sourceSets.main.get().output)
+        archiveBaseName.set(project.name)
+        archiveVersion.set(project.version.toString())
+        destinationDirectory.set(layout.projectDirectory)
+    }
+
+    named("assemble") {
+        finalizedBy(named("deployJar"))
     }
 }
