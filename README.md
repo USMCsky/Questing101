@@ -62,3 +62,5 @@ After setup, usage is simple:
 - Spigot API (project-defined)
 - Minecraft 1.21.x servers
 - Java 21
+
+<img width="1025" height="340" alt="image" src="https://github.com/user-attachments/assets/8ef48a6b-4407-47c3-b3be-ca8ddfc6f775" />
